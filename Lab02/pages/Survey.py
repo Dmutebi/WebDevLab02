@@ -1,6 +1,5 @@
 # This creates the page for users to input data.
 # The collected data should be appended to the 'data.csv' file.
-
 import streamlit as st
 import pandas as pd
 import os # The 'os' module is used for file system operations (e.g. checking if a file exists).
@@ -68,9 +67,9 @@ st.header("Current Data in CSV")
 if os.path.exists(csv_file) and os.path.getsize(csv_file) > 0:
     try:
     # Read the CSV file into a pandas DataFrame.
-    current_data_df = pd.read_csv('data.csv')
+        current_data_df = pd.read_csv('data.csv')
     # Display the DataFrame as a table.
-    st.dataframe(current_data_df)
+        st.dataframe(current_data_df)
     except Exception as e:
         st.error(f"Error reading 'data.csv': {e}")
 else:
