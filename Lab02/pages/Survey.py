@@ -30,7 +30,7 @@ with st.form("study_form"):
     category_input = st.text_input("Study:")
     value_input = st.number_input("How many hours did you study today?",
                                 min_val=0.0,
-                                max_val=24.0,
+                                max_value=24.0,
                                 step=0.5,
                                 help="Enter your total study time in hours"
                             )
