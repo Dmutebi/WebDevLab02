@@ -123,7 +123,7 @@ st.subheader("Graph 3: Dynamic - Study Hours Filter (JSON)") # CHANGE THIS TO TH
 # - If you used CSV data for Graph 1 & 2, you MUST use JSON data here (or vice-versa).
 # - This graph must also be interactive and use Session State.
 # - Remember to add a description and use '#NEW' comments.
-if json_data is not None and "daily_mood" in json_data:
+if json_data is not None and "study_log" in json_data:
     try:
         study_df = pd.DataFrame(json_data["study_log"])
 
