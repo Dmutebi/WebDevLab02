@@ -1,9 +1,0 @@
-{
-  "study_log": [
-    { "day": "Monday", "hours": 2.5 },
-    { "day": "Tuesday", "hours": 4 },
-    { "day": "Wednesday", "hours": 3 },
-    { "day": "Thursday", "hours": 5.5 },
-    { "day": "Friday", "hours": 2 }
-  ]
-}
