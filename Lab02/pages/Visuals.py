@@ -132,7 +132,7 @@ if json_data is not None and "study_log" in json_data:
 
     # Create session state for threshold
         if "study_threshold" not in st.session_state:
-            st.session_state.mood_threshold = 2
+            st.session_state.study_threshold = 2
 
     # Slider to choose threshold
         min_hours = st.slider("Minimum study hours to display", 0, 10, st.session_state.study_threshold)  #NEW
