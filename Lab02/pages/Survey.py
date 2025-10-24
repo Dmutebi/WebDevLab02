@@ -26,7 +26,7 @@ with st.form("study_form"):
     st.subheader("📚 Study Tracker")
     # Create text input widgets for the user to enter data.
     # The first argument is the label that appears above the input box.
-    category_input = st.text_input("Study:")
+    category_input = st.text_input("Study (day of the week):")
     value_input = st.number_input("How many hours did you study today?",
                                 min_value=0.0,
                                 max_value=24.0,
