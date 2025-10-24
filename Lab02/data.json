@@ -1,5 +1,5 @@
 {
-  'study_log': [
+  "study_log": [
     { "day": "Monday", "hours": 2.5 },
     { "day": "Tuesday", "hours": 4 },
     { "day": "Wednesday", "hours": 3 },
